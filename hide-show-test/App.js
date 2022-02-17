@@ -10,12 +10,11 @@ const App = () => {
         {
           show ? (
             <Image
-            source={{uri:"https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png"}}
+            source={{uri:"https://reactjs.org/logo-og.png"}}
             style={{width:250,height:250,marginBottom:10}}
             />
           ) : null
         }
-         
           <Button
           title="Hide/Show React(Logo)"
           onPress={() => setShow(!show)}
@@ -27,6 +26,7 @@ const App = () => {
           show2 ? (
               <Image
               source={{uri:"https://toppng.com/uploads/preview/png-effects-11552159189h8htyll5hu.png"}}
+              
               style={{width:250,height:250,marginBottom:10}}
               />
           ) : null
